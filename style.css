@@ -1,0 +1,400 @@
+body {
+    background-image: url(pictures/main/crap.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+margin: none;
+padding: none;
+}
+.navbar {
+    padding-top: 0px;
+     
+  }
+  /* .navbar-brand img {
+      filter: brightness(1) invert(1); 
+  } */
+  /* .navbar-toggler-icon {
+      filter: brightness(1) invert(5);
+  } */
+  .navbar-nav .nav-link {
+    color:  white;   
+  }
+  .navbar-nav .nav-link:hover {
+       color:   #bda171;   
+  }
+  #mynav{
+    background-color: none;
+    background: transparent;
+    backdrop-filter: blur(15px);
+  }  /*navstyle ends here #home */
+
+  .row1{
+    margin-top: 100px;
+}
+#bnn{
+    width:100%;
+    border: none;
+    box-shadow: 0px 2px 5px #bda171;
+    transition: transform 0.5s;
+    cursor: pointer; 
+}
+#bnn button{
+    width: 100%;
+    border-radius: 5px;
+    
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 6px;
+    cursor: pointer;
+    /* background: transparent;
+    color: #bda171; */
+}
+#bnn button i{
+    margin-bottom: 3px;
+}
+#carrd{
+    
+    box-shadow: 0px 2px 5px black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+#carrd:hover{
+    transform: translateY(-15px);
+}
+.bi-star{
+    font-size: 35px;
+}
+.checked{
+    color:#bda171;
+}
+#immmmg{  
+    max-height: 300px;  
+}
+.dsk{
+    background-color: transparent;
+}
+.diiii{   
+margin-top: -5rem!important;
+}
+.hrfr{
+    background-color: none; 
+    color: #050505;
+    transition: transform 0.5s;
+    cursor: pointer;
+
+    min-width:28%;
+    max-width: 30%;
+    border: none;
+    box-shadow: 0px 2px 5px black;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.hrfr :hover{
+    background-color: #050505; 
+    color: #bda171;
+    transition: 0.9 s;
+    transform: translateY(-15px);
+}
+.lumss{
+    
+        padding-right: 2.55rem!important;
+        padding-left: -0.75rem!important;
+    
+}
+.bi-heart{ font-size: 18px; color: white;}
+.bi-box{ font-size: 18px; color: white;}
+.bi-search{ font-size: 18px; color: white;}
+  
+
+.bi-heart:hover{
+     font-size: 18px; color: #bda171;
+    }
+.bi-box:hover{
+     font-size: 18px; color: #bda171;
+    }
+.bi-search:hover{
+     font-size: 18px; color: #bda171;
+    }
+#sh{
+    /* background-color: aqua; */
+    color: #ffffff;
+} 
+#sh{
+   
+    color: #BEA171;
+    height: 150px;
+    
+}  
+#si{
+    
+    height:350px; 
+    /* padding-left: 20px; */
+    color: #ffffff;
+}  
+#sj{
+    
+    background-image: url(main\ pic.png);
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    height:350px;
+} 
+#sk{
+   
+    height:350px;
+    padding-left: 50px;
+    color: #ffffff; 
+}
+.dil{
+    background-color: transparent;
+    color: white;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    background: oldlace;
+    color: #ffffff;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  #rope{
+    place-content: right;
+}
+#champ {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+  }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  #worldd{
+    position: relative;
+    padding-left: 50px    ;
+    padding: 80px 0 80px 0 ;
+    background-image: url(pictures/main/contact\ main\ \(1\).jpg);    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+       
+
+  }
+
+  #worldd::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: #000000bd; */
+    top: 0;
+    left: 0;
+  }
+
+
+
+
+@media (max-width:575px){
+    .abcdef{
+        text-align: center;
+    }
+}
+/* Mobile styling */
+@media (max-width: 767px) {
+    .noneee{
+        margin-top: 5rem!important;
+    }
+    #nooooo1{
+        max-width: 310px;
+        height: 260px;
+    }
+    #nooooo2{
+        max-width: 310px;
+        height: 250px;
+        margin-top: 33px;
+    }
+    #nooooo3{
+        max-width: 310px;
+        height: 260px;
+        margin-top: 15px;
+    }
+    #nooooo4{
+        max-width: 350px;
+       
+        height: 270px;
+        margin-top: 32px;
+    }
+    #nooooo5{
+        max-width: 310px;
+        height: 250px;
+        margin-top: 55px;
+    }
+  }
+  /* Tablet styling */
+@media (min-width: 768px) and (max-width: 991px) {
+    .noneee{
+        margin-top: 5rem!important;
+    }
+    #nooooo1{
+        width: 417px;
+    }
+    #nooooo2{
+        height: 250px;
+    }
+    #nooooo3{
+        height: 214px;
+        width: 230px; 
+        margin-top: 35px;
+    }
+    #nooooo4{
+        height: 249px;
+        width: 195px;
+        margin-top: 35px; 
+    }
+    #nooooo5{
+        margin-top: 55px;
+        height: 169px;
+    width: 250px;
+    }
+    #lobob{
+        margin-top: 20px;
+    }
+  }
+  /* Desktop styling */
+@media (min-width: 992px) {
+    #nooooo1{
+        height:210px;
+    }
+    #nooooo2{
+        margin-top: 2px;
+        height:235px;
+    }
+    #nooooo3{
+        height: 241px;
+        width: 300px;
+    }
+    #nooooo4{
+        height: 298px;
+        width: 223px; 
+    }
+    #nooooo5{
+        height: 200px; 
+    }
+  }
+/*navstyle starts here #home */
+
+  .navbar {
+    padding-top: 0px;
+  }
+  /* .navbar-brand img {
+      filter: brightness(1) invert(1); 
+  } */
+  /* .navbar-toggler-icon {
+      filter: brightness(1) invert(5);
+  } */
+  .navbar-nav .nav-link {
+    color:  white;   
+  }
+  .navbar-nav .nav-link:hover {
+       color:   #bda171;   
+  }
+  #mynav{
+
+    background: transparent;
+    backdrop-filter: blur(15px);
+  }  /*navstyle ends here #home */
+
+.dubai{
+    border-radius: 50px;
+    padding: 20px;
+}
+.dubai1{
+    border: none;
+    background: transparent;
+    color: white;
+    box-shadow: #bda171
+    box-shadow rgba(189, 161, 113, 0.4) -5px -5px, rgba(189, 161, 113, 0.3) -10px -10px, rgba(189, 161, 113, 0.2) -15px -15px, rgba(189, 161, 113, 0.1) -20px -20px, rgba(189, 161, 113, 0.05) -25px -25px;
+}
+.dubai2{
+    border: radius 30px ;
+    background: transparent;
+    color: white;
+    box-shadow: rgba(189, 161, 113, 0.4) -5px 5px, rgba(189, 161, 113, 0.3) -10px 10px, rgba(189, 161, 113, 0.2) -15px 15px, rgba(189, 161, 113, 0.1) -20px 20px, rgba(189, 161, 113, 0.05) -25px 25px;
+}
+.dubai3{
+    padding: 25px;
+    margin-top: -15px;
+}
+.dubaibtn{
+    border-radius: 50px;
+    border-color: #bda171;
+    width: 120px;
+    color: #bda171;
+    background-color: transparent ;
+    cursor: pointer;
+}
+.dubaibtn:hover{
+    border-radius: 50px;
+    border-color: #bda171;
+    width: 120px;
+    background-color:#bda171;
+    color: black;
+    transition: 0.8s;
+    cursor: pointer;
+}
+#sh{
+    /* background-color: aqua; */
+    color: #ffffff;
+} 
+#sh{
+    color: #BEA171;
+    height: 150px;
+}  
+#si{
+    height:350px; 
+    /* padding-left: 20px; */
+    color: #ffffff;
+}  
+#sj{
+    background-image: url(pictures/main/gg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:350px;
+} 
+#sk{
+    height:350px;
+    padding-left: 50px;
+    color: #ffffff; 
+}
+.damn{
+    
+    list-style: none;
+
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.damd{
+    /* border-bottom: 2px solid #bda171 ; */
+ 
+    margin-top: 10px ;
+    padding: 0;
+
+}
+.dufan{
+    color: #bda171;
+}
+#dodo{
+    margin-top: 100px;
+}
+.dodom{
+   background-color: transparent; 
+}
+#Modal1{
+  box-shadow: none;  
+}
